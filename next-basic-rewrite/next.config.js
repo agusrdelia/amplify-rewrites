@@ -14,6 +14,11 @@ const nextConfig = {
           '/:tagname-t:tagid(\\d+)',
         destination: '/tag',
       },
+      {
+        source:
+          '/category/:slug',
+        destination: '/seccion/:slug',
+      },
     ]
   }
 }
